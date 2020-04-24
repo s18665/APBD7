@@ -14,7 +14,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
-using WebApplication.Middlewares;
 using WebApplication.Services;
 
 namespace WebApplication
@@ -56,8 +55,6 @@ namespace WebApplication
             }
 
             app.UseHttpsRedirection();
-            
-            app.UseMiddleware<LoggingMiddleware>();
 
             app.UseRouting();
 
