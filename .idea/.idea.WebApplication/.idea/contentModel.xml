@@ -12,9 +12,6 @@
         <e p="Controllers" t="Include">
           <e p="EnrollmentsController.cs" t="Include" />
         </e>
-        <e p="Middlewares" t="Include">
-          <e p="LoggingMiddleware.cs" t="Include" />
-        </e>
         <e p="models" t="Include">
           <e p="EnrollStudentRequest.cs" t="Include" />
           <e p="EnrollStudentResponse.cs" t="Include" />
